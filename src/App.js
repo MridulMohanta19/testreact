@@ -1,4 +1,5 @@
 import './App.css';
+import About from './components/About';
 import Navbar from './components/Navbar';
 import Textarea from './components/Textarea';
 
@@ -7,7 +8,8 @@ function App() {
     <>
   <Navbar tittle= 'TextUtils'/>
   <div className='container my-3' >
-  <Textarea heading="Enter the Text"/>
+  {/* <Textarea heading="Enter the Text"/> */}
+  <About/>
   </div>
     </>
   );
